@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+   >
+
+    <TextView
+        android:gravity="right"
+        android:id="@+id/jieguo"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:textSize="40sp" />
+    <EditText
+        android:id="@+id/gonzi"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="每月工资"
+        android:gravity="right"
+        android:layout_gravity="end"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg"
+        android:inputType="number"/>
+    
+    <LinearLayout
+
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/rg_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbzn_1"
+                android:text="是"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rbzn_2"
+                android:text="否"
+                android:textSize="30sp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="子女教育"
+            android:textSize="30sp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/rg_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbjx_1"
+                android:text="是"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rbjx_2"
+                android:text="否"
+                android:textSize="30sp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继续教育"
+            android:textSize="30sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/rg_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbdk_1"
+                android:text="是"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rbdk_2"
+                android:text="否"
+                android:textSize="30sp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="含有住房贷款"
+            android:textSize="30sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/rg_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rblr_1"
+                android:text="是"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rblr_2"
+                android:text="否"
+                android:textSize="30sp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是否赡养老人"
+            android:textSize="30sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        >
+        <EditText
+            android:id="@+id/gjj"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="社保公积金"
+            android:textSize="30sp"
+            android:gravity="right"
+            android:layout_gravity="end"
+            android:background="@drawable/bg"
+            android:inputType="number" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/js"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="个人所得税"
+        android:textSize="30sp"
+        android:background="@drawable/bg_btn"/>
+    <Button
+        android:id="@+id/qc"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除"
+        android:textSize="30sp"
+        android:background="@drawable/bg_qingchu"/>
+
+
+
+
+
+</GridLayout>
